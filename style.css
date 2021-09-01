@@ -1,0 +1,407 @@
+*,
+* ::before,
+* ::after {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto Slab", serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.header-nav-contact a  {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 22px 0;
+    border-radius: 50%;
+    color: black;
+    background-color: whitesmoke;
+    margin: 10px;
+
+}
+.header-nav-contact {
+    width: fit-content;
+    margin: 30px auto;
+}
+.board {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo-box {
+    display: flex;
+    align-items: center;
+    font-size: 0;
+}
+.heading {
+    font-size: 32px;
+    font-weight: 600;
+    color: orangered;
+    text-decoration: none;
+    margin-left: 32px;
+} .nav a {
+    font-size: 28px;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+#home {
+    color: orangered;
+}
+.header {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    margin: 10px 0;
+}
+.text {
+    margin-top: 180px;
+    text-align: center;
+    text-decoration: underline;
+}
+.h1 {
+    font-size: 45px;
+    line-height: 1.5;
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+    border-bottom: 2px solid white;
+}
+.h5 {
+    padding: 20px 0;
+    font-size: 17px;
+    color: white;
+    line-height: 1.5
+}
+.button {
+    padding: 8px 24px;
+    background-color: orangered;
+    border-radius: 7px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 105%;
+    height: 600px;
+}
+.cover {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 6);
+    position: absolute;
+    z-index: 1;
+}
+.dot-container {
+    width: fit-content;
+    margin: 0 auto;
+}
+.dot {
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    display: inline-block;
+}
+.blu {
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+h6 {
+    text-align: center;
+    font-size: 16px;
+    margin: 20px auto;
+}
+.box {
+    margin: 20px;
+    padding: 130px 0;
+    display: flex;
+    flex-basis: 130px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+
+}
+.skyblue {
+    background-color: skyblue;
+
+}
+.orange {
+    background-color: orange;
+
+}
+.lightblue {
+    background-color: lightblue;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+.port {
+    width: 22%;
+    margin: 20px 0;
+
+}
+
+.a-team {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.member {
+    width: 22%;
+    border-radius: 50%;
+}
+
+h3 {
+    font-size: 24px;
+    font-style: italic;
+    margin-top: 70px;
+    text-align: center;
+}
+.para-1 {
+    width: 67%;
+
+}
+.para-1 p {
+    font-size: 17px;
+}
+.stats {
+    width: 30;
+}
+.bar-chart {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    margin: 10px auto;
+}
+.progress {
+    height: 34px;
+    background-color: orangered;
+    color: white;
+    padding: 2px;
+
+}
+.one {
+    width: 90%;
+}
+.two {
+    width: 80%;
+
+}
+.three {
+    width: 70%;
+}
+.four {
+    width: 80%;
+}
+.h2 {
+ 
+    width: 1200px;
+    height: 400px;
+}
+
+.address {
+    display: flex;
+    justify-content: space-between;
+
+}
+.para-2 {
+    width: 57%;
+}
+.form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.your {
+    width: 100%;
+    height: 30px;
+    border: 1px solid gray;
+    margin: 5px auto;
+    padding-top: 5px;
+
+}
+.message {
+    height: 100px;
+}
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    padding-top: 5px;
+
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: green;
+}
+address {
+    line-height: 1.7;
+}
+.bold {
+    font-weight: 500;
+}
+.email {
+    text-decoration: none;
+    color: orangered;
+}
+
+.footer {
+    margin-top: 70px;
+}
+.flex {
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.to-top {
+    height: 30px;
+    width: 200px;
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+}
+
+/* Gallery */
+
+.container-2 {
+    box-sizing: border-box;
+    display: flex;
+}
+.aside {
+    background-color: orangered;
+    width: 20%;
+    height: 750px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-component {
+    width: 70vw;
+    height: 100vh;
+
+}
+.head {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+}
+.base {
+    margin-left: 20px;
+}
+#Gallery {
+    color: orangered;
+}
+.logobox {
+    display: flex;
+    align-items: center;
+}
+.head a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 4px 10px;
+}
+h4 {
+    color: white;
+    font-size: 28px;
+}
+
+.social-app a {
+       display: inline-block;
+       margin: 0 10px;
+       padding: 20px;
+       color: white;
+       height: 60px;
+       width: 60px;
+       border-radius: 50%;
+       text-align: center;
+
+       border: 2px solid white;
+}
+.social-contact {
+    margin: 40px auto;
+}
+
+.main-component {
+    overflow: auto;
+
+}
+.gal {
+    display: flex;
+    justify-content: space-around;
+}
+.gallery-name {
+    color: black;
+    text-align: center;
+}
+.gallery {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.gallery img {
+    width: 100%;
+    border: 2px solid black;
+    margin: 15px auto;
+}
+   
