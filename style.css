@@ -171,6 +171,10 @@ h6 {
     background-color: lightgreen;
 
 }
+.box i {
+    font-size: 30px;
+    color: white;
+}
 
 .portfolio {
     display: flex;
@@ -201,48 +205,59 @@ h3 {
     margin-top: 70px;
     text-align: center;
 }
+.italic {
+    font-style: italic;
+    font-size: 18px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
 .para-1 {
     width: 67%;
 
 }
 .para-1 p {
     font-size: 17px;
+
+}
+.orange {
+    color: orangered;
 }
 .stats {
-    width: 30;
+    width: 25%;
+    
 }
 .bar-chart {
     width: 100%;
-    height: 40px;
+    height: 50px;
     background-color: white;
-    margin: 10px auto;
+    margin: 15px auto;
+    
+
 }
 .progress {
-    height: 34px;
+    height: 40px;
     background-color: orangered;
     color: white;
-    padding: 2px;
+    padding: 1px;
 
 }
 .one {
-    width: 90%;
+    width: 90%;  
+
 }
 .two {
     width: 80%;
-
+    
 }
 .three {
     width: 70%;
-}
+}  
 .four {
     width: 80%;
+    
 }
-.h2 {
- 
-    width: 1200px;
-    height: 400px;
-}
-
 .address {
     display: flex;
     justify-content: space-between;
@@ -274,7 +289,7 @@ h3 {
     color: white;
     background-color: orangered;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 3px;
 
 }
 .blue {
@@ -357,27 +372,27 @@ address {
     font-size: 18px;
     border: 2px solid white;
     border-radius: 5px;
-    padding: 4px 10px;
+    padding: 9px 10px;
 }
 h4 {
     color: white;
     font-size: 28px;
 }
 
-.social-app a {
+.social-contact a {
        display: inline-block;
-       margin: 0 10px;
+       margin: 0 8px;
        padding: 20px;
        color: white;
-       height: 60px;
-       width: 60px;
+       height: 30px;
+       width: 30px;
        border-radius: 50%;
        text-align: center;
-
        border: 2px solid white;
 }
 .social-contact {
-    margin: 40px auto;
+    margin: 45px auto;
+
 }
 
 .main-component {
